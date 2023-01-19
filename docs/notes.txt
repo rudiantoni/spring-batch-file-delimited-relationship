@@ -1,0 +1,11 @@
+Delete records from the database and reset sequences with PostgreSQL
+
+DELETE from batch_job_execution_context WHERE 1=1;
+DELETE FROM batch_job_execution_params WHERE 1=1;
+DELETE FROM batch_step_execution_context WHERE 1=1;
+DELETE FROM batch_step_execution WHERE 1=1;
+DELETE FROM batch_job_execution WHERE 1=1;
+DELETE FROM batch_job_instance WHERE 1=1;
+ALTER SEQUENCE batch_job_seq RESTART;
+ALTER SEQUENCE batch_job_execution_seq RESTART;
+ALTER SEQUENCE batch_step_execution_seq RESTART;
