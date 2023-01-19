@@ -49,4 +49,4 @@
 
 Log image with working example:
 - **Linux**: [spring-batch-file-delimited-relationship](https://i.imgur.com/DGk1KFY.png)
-- **Windows**: [xxx](xxxx)
+- **Windows**: [spring-batch-file-delimited-relationship](https://i.imgur.com/IhCByzw.png)
